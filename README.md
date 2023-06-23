@@ -39,3 +39,7 @@ After finding the T and P value, We can conclude the result of our hypothesis te
 
 ### NOTE:
 **In this section w did not cover why we use the expressions to cover the standard error, deviation and pooled variance. In the files section there is a file called **Additioanl Details**. This contain the basics things of T test. Do check it out for better understanding.
+
+
+## Extension:
+There is another file named **Conducting T test Stepwise** which shows additional details about this project. The first thinh we have to chech is the Normality of the data. Without this condition we can not conduct T test. So first we conduct Normality test using the Shapiro test. According to the data asd p value is less than 0.05, we failed the test. Next to check Normality we conduct Kolmogorov test. The above mentioned two tests are example of parametric tests.This test also fails. Lastly we have the option to conduct Mann-Whitney U test which is a non-parametric test. In this case the p value is less than 0.05, indicating that there is difference between the data we consider in terms of central tendency.
